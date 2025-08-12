@@ -8,17 +8,13 @@ const NavBar = () => {
     { href: "/issues", label: "Issues" },
   ];
   return (
-    <nav
-      className="flex space-x-6 border-b mb-6 px-5 h-14 items-center"
-      style={{ marginBottom: "10px" }}
-    >
+    <nav className="flex space-x-4 border-b mb-5 px-5 h-10 items-center ">
       <Link href="/">
         <FaBug />
       </Link>
-      <ul className="flex space-x-6 list-none">
+      <ul className="flex space-x-4 text-sm font-medium">
         {links.map((links) => (
           <Link
-            style={{ marginRight: "25px" }}
             key={links.href}
             href={links.href}
             className="text-zinc-500 hover:text-zinc-800 transition-colors"

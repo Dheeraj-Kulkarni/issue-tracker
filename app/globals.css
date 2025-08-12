@@ -1,9 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import "tailwindcss/preflight" @tailwind utilities;
 
 :root {
   --foreground-rgb: 0, 0, 0;
+
+  font-size: 4px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,5 +14,4 @@
 }
 
 body {
-  color: black;
 }
