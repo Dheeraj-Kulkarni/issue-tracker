@@ -3,8 +3,6 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-
-  font-size: 4px;
 }
 
 @media (prefers-color-scheme: dark) {
